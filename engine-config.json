@@ -1,0 +1,20 @@
+{
+  "apiKey": "service:yaelsprikut-8189:DdyHPASRU1TWfbwfxhYfZg",
+  "origins": [
+    {
+      "http": {
+        "url": "https://yael-todo-v2.herokuapp.com/graphql",
+        "overrideRequestHeaders": {
+          "Host": "yael-todo-v2.herokuapp.com"
+        }
+      }
+    }
+  ],
+  "frontends": [
+    {
+      "host": "0.0.0.0",
+      "port": "3000",
+      "graphqlPaths": ["/graphql"]
+    }
+  ]
+}
